@@ -1,4 +1,4 @@
-menu_list_array = ["Veg Margherita Pizza","Paneer Tikka Pizza","Cheese Corn Pizza","Unthinkable Pizza","Chicken Pizza"];
+menu_list_array = ["Veg Margherita Pizza","Paneer Tikka Pizza","Cheese Corn Pizza","Unthinkable Pizza","Chicken Pizza", "Dosa Pizza","Panner Butter Masala Pizza", "Chicken Tandoori Pizza", "Veggie Pizza"];
                    
 
 function getmenu(){
@@ -21,7 +21,7 @@ htmldata1="<section class='cards'>";
 for(var i=0;i<menu_list_array.length;i++){
 
     htmldata1=htmldata1+ '<div class="card">'
-    + '<img src="images/pizzaImg.png">'
+    + '<img src="pizzaImg.png">'
       + menu_list_array[i] + '</div>';
 }
 
